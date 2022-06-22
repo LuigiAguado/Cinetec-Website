@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS";
+    background-color: rgb(37, 37, 39);
+}
+
+body{
+    font-family: "Trebuchet MS";
+    color: white;
+    background-color: rgb(37, 37, 39);
+    
+}
+
+.main{
+    height: 840px;
+    background-color: rgb(37, 37, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.main h1{
+    font-size: 85px;
+    max-width: 600px;
+}
+
+#linha-horizontal {
+    width: 1916px;
+    border: 2px solid #000;
+}
+
+footer{
+    background-color: rgb(37, 37, 39);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 53px;
+}
+
+#date{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    padding-top: 2px;
+}
+
+.botao{
+    background-color: rgb(161, 38, 38);
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    position: relative;
+    width: 280px;
+   }
+
+.botaosite{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+   }
+
+.main2 span{
+    font-size: 30px;
+}

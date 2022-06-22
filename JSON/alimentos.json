@@ -1,0 +1,23 @@
+[
+    
+    {
+        "titulo": "Pipoca",
+        "valor": 10.50,
+        "imagem": "IMG/pipocaaa.png"
+    },
+    {
+        "titulo": "Refrigerante",
+        "valor": 9.00,
+        "imagem": "IMG/refrigerante.png"
+    },
+    {
+        "titulo": "Chocolate",
+        "valor": 6.00,
+        "imagem": "IMG/chocolate.png"
+    },
+    {
+        "titulo": "Combo (pipoca, refrigerante e chocolate)",
+        "valor": 22.00,
+        "imagem": "IMG/combo.png"
+    }
+   ]

@@ -1,0 +1,118 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+
+#menu{
+    background-color: rgb(37, 37, 39);   
+}
+
+#menu img{
+    height: 70px;
+}
+
+#menu ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: #fff;
+    padding: 30px;
+    display: inline-flex;
+    justify-items: center;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color: rgb(161, 38, 38);
+}
+    
+.menucompra{
+    background-color: rgb(161, 38, 38);
+}
+
+.menucompra li a:hover{
+    color: #000 !important;
+}
+
+#linha-horizontal {
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.meio{
+    height: 734px;
+    background-color: rgb(62, 62, 65);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.meio h1{
+    font-size: 85px;
+    max-width: 1000px;
+    color: #fff;
+}
+
+footer{
+    background-color: rgb(37, 37, 39);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.voltartopo{
+    color: #fff;
+    background-color: rgb(62, 62, 65);
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#date{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    padding-top: 2px;
+}
+
+.botaodofilme{
+    background-color: rgb(161, 38, 38);
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    position: relative;
+    width: 250px;
+   }
+
+   .botaofilme{
+       padding-top: 20px;
+       padding-bottom: 40px;
+       background-color: rgb(62, 62, 65);
+   }

@@ -1,0 +1,12 @@
+[
+{
+    "titulo": "Ingresso meia",
+    "valor": 9.50,
+    "imagem": "IMG/ingresso.png"
+},
+{
+    "titulo": "Ingresso inteiro",
+    "valor": 19.00,
+    "imagem": "IMG/ingresso.png"
+}
+]

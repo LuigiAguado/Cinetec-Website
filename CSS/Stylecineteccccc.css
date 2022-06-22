@@ -1,0 +1,291 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+
+#menu{
+    background-color: rgb(37, 37, 39);   
+}
+
+#menu img{
+    height: 70px;
+}
+
+#menu ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: #fff;
+    padding: 30px;
+    display: inline-flex;
+    justify-items: center;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color: rgb(161, 38, 38);
+}
+    
+.menucompra{
+    background-color: rgb(161, 38, 38);
+}
+
+.menucompra li a:hover{
+    color: #000 !important;
+}
+
+.main{
+    height: 330px;
+    background-color: rgb(62, 62, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.main img{
+    width: 540px;
+    display: inline-block;
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
+
+.main h1{
+    font-size: 85px;
+    color: #fff;
+    text-decoration: none;
+    max-width: 600px;
+}
+
+#linha-horizontal {
+    width: 100%;
+    border: 2px solid #000;
+}
+
+.mainfilmes{
+    background-color: rgb(90, 90, 95);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainfilmes h2{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+
+.mainfilmes span{
+    color: #fff;
+    font-size: 25px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+   }
+
+.imgfilmes{
+    width: 550px;
+    display: inline-block;
+    padding: 10px;
+   }
+
+.imgfilmes span{
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(74, 74, 80);
+    border-radius: 4px;
+    font-family: "Trebuchet MS";
+}
+
+.botaodofilme{
+    background-color: rgb(161, 38, 38);
+    border-radius: 3px;
+    color: #ffffff;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    position: relative;
+    width: 250px;
+   }
+
+   .botaofilme{
+       padding-top: 20px;
+       padding-bottom: 40px;
+   }
+
+.mainsobre{
+    background-color: rgb(62, 62, 65);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainsobre div h2{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+    padding-bottom: 43px;
+}
+
+.mainsobre div h3{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(74, 74, 80);
+    max-width: 750px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.imgsala{
+    width: 550px;
+    display: inline-block;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(37, 37, 39);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.voltartopo{
+    color: #fff;
+    background-color: rgb(62, 62, 65);
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#date{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    padding-top: 2px;
+}
+
+.partedosprodutos{
+    background-color: rgb(62, 62, 65);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partedosprodutos .fundophp{
+    background-color: rgb(62, 62, 65);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    max-width: 950px;
+    width: 100%;
+    border-left: 6px double rgb(161, 38, 38);
+    border-right: 6px double rgb(161, 38, 38);
+}
+
+.partedosprodutos h2{
+    color: rgb(255, 0, 0);
+    background-color: rgb(62, 62, 65);
+    font-size: 80px;
+    text-decoration: none;
+    padding: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.partedosprodutos h3{
+    color: white;
+    background-color: rgb(62, 62, 65);
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    max-width: 950px;
+    width: 100%;
+    border-left: 6px double rgb(161, 38, 38);
+    border-right: 6px double rgb(161, 38, 38);
+    border-top: 6px double rgb(161, 38, 38);
+    
+}
+
+.partedosprodutos .imgphp{
+    background-color: rgb(161, 38, 38);
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.comentarios{
+    background-color: rgb(62, 62, 65);
+}
+
+.comentarios .coment{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(109, 109, 114);
+    border-radius: 16px;
+    text-align: center;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(161, 38, 38);
+}
+
+.comentarios .fotodousuario{
+    border-radius: 400px;
+    width: 100px;
+    background-color: rgb(62, 62, 65);
+}
+
+.comentarios h2{
+    color: white;
+    background-color: rgb(62, 62, 65);
+    font-size: 80px;
+    text-decoration: none;
+    padding: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.comentarios h3{
+    color: white;
+    background-color: rgb(62, 62, 65);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
